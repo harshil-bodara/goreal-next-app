@@ -9,27 +9,27 @@ export default function BuyInstagramLikes() {
 
   return (
     <div>
-                <div class="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
-            <div class="container-fluid plr--30">
-                <div class="row">
+                <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
+            <div className="container-fluid plr--30">
+                <div className="row">
 
-                    <div class="col-lg-12">
-                        <div class="breadcrumb-inner text-center">
-                            <h1 class="title theme-gradient h2" style={{fontSize: "28px !important"}}>Buy Instagram Likes with Instant Delivery in 2022</h1>
+                    <div className="col-lg-12">
+                        <div className="breadcrumb-inner text-center">
+                            <h1 className="title theme-gradient h2" style={{fontSize: "28px !important"}}>Buy Instagram Likes with Instant Delivery in 2022</h1>
                             <p>Select a package that you like and submit Order Now button</p>
                         </div>
                     </div>
 
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="rwt-portfolio-filter filter-button-default messonry-button text-center mb--30">
-                            <button data-filter=".cat--1" class="is-checked"><span class="filter-text">High-Quality Likes</span></button>
-                            <button data-filter=".cat--2"><span class="filter-text">Active Likes</span></button>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="rwt-portfolio-filter filter-button-default messonry-button text-center mb--30">
+                            <button data-filter=".cat--1" className="is-checked"><span className="filter-text">High-Quality Likes</span></button>
+                            <button data-filter=".cat--2"><span className="filter-text">Active Likes</span></button>
                         </div>
                         <div style={{textAlign: "center"}}>
-                            <div class="popup" onClick={popupFunction} style={{color: "#E54196"}}>What's the difference?
-                                <span class="popuptext" id="myPopup" style={{padding: "10px"}}>
+                            <div className="popup" onClick={popupFunction} style={{color: "#E54196"}}>What's the difference?
+                                <span className="popuptext" id="myPopup" style={{padding: "10px"}}>
                                     <strong>High Quality Likes</strong>  <br />
                                     These are Likes with profile pictures but no further uploads on their account. Auto-refill is enabled within the warranty.                                    <br />
                                     <br />
@@ -37,134 +37,134 @@ export default function BuyInstagramLikes() {
                                     New Premium Likes are for those who are serious about their instagram growth. These are guaranteed with very little to NO drop!                                </span>
                             </div>
                         </div>
-                        <div class="portfolio-items grid-metro3 mesonry-list">
-                            <div class="resizer"></div>
+                        <div className="portfolio-items grid-metro3 mesonry-list">
+                            <div className="resizer"></div>
 
                             {/* <!-- Start High Quality  --> */}
-                            <div class="portfolio-4 cat--1">
-                                <div class="rwt-pricing-area rn-section-gap">
-                                    <div class="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
-                                    <div class="row row--0">
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                            <div className="portfolio-4 cat--1">
+                                <div className="rwt-pricing-area rn-section-gap">
+                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
+                                    <div className="row row--0">
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     50</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     50 Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>0.89</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>0.89</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     100</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     100 Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>0.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>0.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     300</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     300 Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>2.59</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>2.59</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4 active">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4 active">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     500</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     500 Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>4.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>4.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,10 +228,10 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E210" id="E210"><span is="qowt-word-run" qowt-eid="E211" id="E211"></span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E212" id="E212"><span is="qowt-word-run" qowt-eid="E213" id="E213">That being said, advertising with Instagram is very effective, and not terribly difficult for those that aren’t professional marketers. In this part of the article, we will go over a few very simple tips and tricks for effective advertising on Instagram. Although this guide will help you get off to a strong start, it is important to note that the more research you do in advance, the more effective your advertising campaign will be. And also you can <a href="https://goread.io/buy-instagram-views">buy instagram views</a> from Goread.io</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E214" id="E214"><span is="qowt-word-run" qowt-eid="E215" id="E215"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E216" id="E216" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E217" id="E217">Set Your Budget</span><span is="qowt-word-run" qowt-eid="E218" id="E218">: "The" first step is probably the simplest, but also the most limiting, set your budget. Keep in mind that more money does not automatically equal a more impactful campaign. If you are looking to sell an app that connects members of one specific neighborhood in one specific city, you don’t really need a budget big enough for a nationwide campaign. In fact, you might even be able to get away with something like an influencer putting the word out, in which case you may not even need an advertising campaign. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E219" id="E219" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E220" id="E220"> Know Your Audience:</span><span is="qowt-word-run" qowt-eid="E221" id="E221">This step does seem to contradict with some of what we said earlier, since this is all about figuring out what specific group you are advertising to. Earlier we said that the main goal of advertising is to reach as many people as possible, including those that are not already in your base, but that does not mean it isn’t essential that you know who your base is. For instance, if you were writing a young adult fantasy novel about a group of female heroes fighting against a tyrannical male, your first instinct might be to think that your core demographic is young females between the ages of 14-21. While that is probably true, there would also be some room for young males in college, feminist activist groups, and just fantasy-genre lovers in general. You can test different core groups in order to find the most profitable demographic. The key here is for you to focus on your demographic when creating and advertising so that you can keep your base, while also attempting to expand it. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E222" id="E222" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E223" id="E223">Learn The Metrics:</span><span is="qowt-word-run" qowt-eid="E224" id="E224">Understanding the metrics of likes, clicks, comments, and conversions is essential to your advertising campaign. Not only are these going to be the units by which you measure the success of the campaign, but the ratios will be used to adapt your campaign to trends and changes in the future. For example, if you are receiving five likes for every one conversion (actual sales made after likes and clicks), then you are in pretty good shape, but one thousand likes for every one conversion means there is probably something amiss, and you will need to find a way to close the deal on interested users. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E225" id="E225" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n" named-flow="FLOW-7"><span is="qowt-word-run" qowt-eid="E226" id="E226">Don’t Forget The Long Game:</span><span is="qowt-word-run" qowt-eid="E227" id="E227" named-flow="FLOW-8">Although you do want to push for high numbers in the short term, as these bursts will often help to sustain you when business inevitably slows as excitement dies down, never forget that advertising has a long game as well. Building </span><span> </span>a recognizable name and brand recognition is what sets apart McDonalds from Joe’s Burger Shack.</p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E216" id="E216" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E217" id="E217">Set Your Budget</span><span is="qowt-word-run" qowt-eid="E218" id="E218">: "The" first step is probably the simplest, but also the most limiting, set your budget. Keep in mind that more money does not automatically equal a more impactful campaign. If you are looking to sell an app that connects members of one specific neighborhood in one specific city, you don’t really need a budget big enough for a nationwide campaign. In fact, you might even be able to get away with something like an influencer putting the word out, in which case you may not even need an advertising campaign. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E219" id="E219" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E220" id="E220"> Know Your Audience:</span><span is="qowt-word-run" qowt-eid="E221" id="E221">This step does seem to contradict with some of what we said earlier, since this is all about figuring out what specific group you are advertising to. Earlier we said that the main goal of advertising is to reach as many people as possible, including those that are not already in your base, but that does not mean it isn’t essential that you know who your base is. For instance, if you were writing a young adult fantasy novel about a group of female heroes fighting against a tyrannical male, your first instinct might be to think that your core demographic is young females between the ages of 14-21. While that is probably true, there would also be some room for young males in college, feminist activist groups, and just fantasy-genre lovers in general. You can test different core groups in order to find the most profitable demographic. The key here is for you to focus on your demographic when creating and advertising so that you can keep your base, while also attempting to expand it. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E222" id="E222" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E223" id="E223">Learn The Metrics:</span><span is="qowt-word-run" qowt-eid="E224" id="E224">Understanding the metrics of likes, clicks, comments, and conversions is essential to your advertising campaign. Not only are these going to be the units by which you measure the success of the campaign, but the ratios will be used to adapt your campaign to trends and changes in the future. For example, if you are receiving five likes for every one conversion (actual sales made after likes and clicks), then you are in pretty good shape, but one thousand likes for every one conversion means there is probably something amiss, and you will need to find a way to close the deal on interested users. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E225" id="E225" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n" named-flow="FLOW-7"><span is="qowt-word-run" qowt-eid="E226" id="E226">Don’t Forget The Long Game:</span><span is="qowt-word-run" qowt-eid="E227" id="E227" named-flow="FLOW-8">Although you do want to push for high numbers in the short term, as these bursts will often help to sustain you when business inevitably slows as excitement dies down, never forget that advertising has a long game as well. Building </span><span> </span>a recognizable name and brand recognition is what sets apart McDonalds from Joe’s Burger Shack.</p>
                                         </qowt></div>
                                         </div>
                                         <div id="pageBorders"></div>
@@ -241,10 +241,10 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E228" id="E228"><strong><span is="qowt-word-run" qowt-eid="E229" id="E229">The Magic of The Algorithm</span></strong></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E230" id="E230"><span is="qowt-word-run" qowt-eid="E231" id="E231">The point of creating and introducing the algorithm in the first place was not just to expand Instagram’s base, but to keep users engaged longer. Having a lot of regular users is important for a social media platform, but after that, the money is in keeping them looking at the platform for as long as possible, so that they can see as many advertisements as possible. Here is how the algorithm makes that happen. </span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E232" id="E232"><strong><span is="qowt-word-run" qowt-eid="E235" id="E235">A user logs on and looks at pictures and videos.</span></strong><br /><span is="qowt-word-run" qowt-eid="E233" id="E233"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E236" id="E236" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E237" id="E237">The algorithm collects relevant data about what the user took an interest in, and stores the data for next time. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E238" id="E238" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E239" id="E239">The user comes back, and finds that the pictures and videos they are looking at are now catered to their personal taste, so they spend more time on the platform. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E240" id="E240" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E241" id="E241">The algorithm collects even more specific data, and stores it for next time.</span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E242" id="E242" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E243" id="E243">Rinse and repeat.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E236" id="E236" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E237" id="E237">The algorithm collects relevant data about what the user took an interest in, and stores the data for next time. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E238" id="E238" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E239" id="E239">The user comes back, and finds that the pictures and videos they are looking at are now catered to their personal taste, so they spend more time on the platform. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E240" id="E240" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E241" id="E241">The algorithm collects even more specific data, and stores it for next time.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E242" id="E242" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E243" id="E243">Rinse and repeat.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E244" id="E244"><span is="qowt-word-run" qowt-eid="E245" id="E245"></span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E246" id="E246"><span is="qowt-word-run" qowt-eid="E247" id="E247">As you can see, the system is set up to benefit both the user and the advertisers; and benefitting the user and advertisers is good for Instagram as a whole. </span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E248" id="E248"><strong><span is="qowt-word-run" qowt-eid="E251" id="E251">Cheaters Never Prosper</span></strong><br /><span is="qowt-word-run" qowt-eid="E249" id="E249"></span></p>
@@ -266,9 +266,9 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E266" id="E266"><span is="qowt-word-run" qowt-eid="E267" id="E267">Details, Details…</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E268" id="E268"><span is="qowt-word-run" qowt-eid="E269" id="E269">There is a quote from Fredrick Bachman, a Swedish writer, “Everything is complicated if no one explains it to you”. All of this might seem a little difficult to grasp, and you might be thinking that there has to be a lot of details that you simply are not getting. Well, that is correct. Building an organic following on Instagram is not terribly complicated, but it can seem that way if you don’t have the right help. Here are the definitions of a few words and phrases that you might run into while you’re building your campaign.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E270" id="E270"><span is="qowt-word-run" qowt-eid="E271" id="E271"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E272" id="E272" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E273" id="E273"><a href="https://en.wikipedia.org/wiki/Influencer_marketing">Influencer</a>:</span><span is="qowt-word-run" qowt-eid="E274" id="E274"> An influencer is someone with a following so large that they can influence trends and sales on Instagram. A plug from an influencer is not a guarantee of success, but it can definitely help. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E275" id="E275" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E276" id="E276">Social Proof:</span><span is="qowt-word-run" qowt-eid="E277" id="E277"> Put simply, this just means that people are more likely to do something if they see others doing it first. The term was coined by Robert Cialdini, a professor at Arizona State University. Social proof is the reason that influencers matter in social media marketing. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E278" id="E278" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E279" id="E279">Organic Likes: "This" means likes that came from actual people that actually have an interest in your content. There is such a thing as “organic marketing services”, but these are paid for and not really organic at all. Organic likes are not paid for, not bots, and not duped into thinking your product is something other than what it really is. Without a doubt there is nothing better for your marketing campaign than a lot of <a href="https://goread.io/buy-instagram-likes">truly organic likes</a>.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E272" id="E272" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E273" id="E273"><a href="https://en.wikipedia.org/wiki/Influencer_marketing">Influencer</a>:</span><span is="qowt-word-run" qowt-eid="E274" id="E274"> An influencer is someone with a following so large that they can influence trends and sales on Instagram. A plug from an influencer is not a guarantee of success, but it can definitely help. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E275" id="E275" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E276" id="E276">Social Proof:</span><span is="qowt-word-run" qowt-eid="E277" id="E277"> Put simply, this just means that people are more likely to do something if they see others doing it first. The term was coined by Robert Cialdini, a professor at Arizona State University. Social proof is the reason that influencers matter in social media marketing. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E278" id="E278" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E279" id="E279">Organic Likes: "This" means likes that came from actual people that actually have an interest in your content. There is such a thing as “organic marketing services”, but these are paid for and not really organic at all. Organic likes are not paid for, not bots, and not duped into thinking your product is something other than what it really is. Without a doubt there is nothing better for your marketing campaign than a lot of <a href="https://goread.io/buy-instagram-likes">truly organic likes</a>.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E280" id="E280"><span is="qowt-word-run" qowt-eid="E281" id="E281"></span><strong>And also you can buy following Instagram follower packages from Goread.io</strong></p>
                                         </qowt>
                                         <p><a href="https://goread.io/buy-50-instagram-followers"><strong>50 Instagram Followers</strong></a></p>
@@ -296,130 +296,130 @@ export default function BuyInstagramLikes() {
                                         <p></p>               
                                     </div>
                                 </div>
-                            <div class="portfolio-4 cat--2">
-                                <div class="rwt-pricing-area rn-section-gap">
-                                    <div class="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
-                                    <div class="row row--0">
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                            <div className="portfolio-4 cat--2">
+                                <div className="rwt-pricing-area rn-section-gap">
+                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
+                                    <div className="row row--0">
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     200</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     200 Real Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>6.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>6.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     1500</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     1500 Real Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>19.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>19.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     3000</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     3000 Real Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>34.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>34.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4 active">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4 active">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     8000</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     8000 Instagram Likes</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>79.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>79.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -482,10 +482,10 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E210" id="E210"><span is="qowt-word-run" qowt-eid="E211" id="E211"></span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E212" id="E212"><span is="qowt-word-run" qowt-eid="E213" id="E213">That being said, advertising with Instagram is very effective, and not terribly difficult for those that aren’t professional marketers. In this part of the article, we will go over a few very simple tips and tricks for effective advertising on Instagram. Although this guide will help you get off to a strong start, it is important to note that the more research you do in advance, the more effective your advertising campaign will be. And also you can <a href="https://goread.io/buy-instagram-views">buy instagram views</a> from Goread.io</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E214" id="E214"><span is="qowt-word-run" qowt-eid="E215" id="E215"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E216" id="E216" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E217" id="E217">Set Your Budget</span><span is="qowt-word-run" qowt-eid="E218" id="E218">: "The" first step is probably the simplest, but also the most limiting, set your budget. Keep in mind that more money does not automatically equal a more impactful campaign. If you are looking to sell an app that connects members of one specific neighborhood in one specific city, you don’t really need a budget big enough for a nationwide campaign. In fact, you might even be able to get away with something like an influencer putting the word out, in which case you may not even need an advertising campaign. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E219" id="E219" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E220" id="E220"> Know Your Audience:</span><span is="qowt-word-run" qowt-eid="E221" id="E221">This step does seem to contradict with some of what we said earlier, since this is all about figuring out what specific group you are advertising to. Earlier we said that the main goal of advertising is to reach as many people as possible, including those that are not already in your base, but that does not mean it isn’t essential that you know who your base is. For instance, if you were writing a young adult fantasy novel about a group of female heroes fighting against a tyrannical male, your first instinct might be to think that your core demographic is young females between the ages of 14-21. While that is probably true, there would also be some room for young males in college, feminist activist groups, and just fantasy-genre lovers in general. You can test different core groups in order to find the most profitable demographic. The key here is for you to focus on your demographic when creating and advertising so that you can keep your base, while also attempting to expand it. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E222" id="E222" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E223" id="E223">Learn The Metrics:</span><span is="qowt-word-run" qowt-eid="E224" id="E224">Understanding the metrics of likes, clicks, comments, and conversions is essential to your advertising campaign. Not only are these going to be the units by which you measure the success of the campaign, but the ratios will be used to adapt your campaign to trends and changes in the future. For example, if you are receiving five likes for every one conversion (actual sales made after likes and clicks), then you are in pretty good shape, but one thousand likes for every one conversion means there is probably something amiss, and you will need to find a way to close the deal on interested users. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E225" id="E225" qowt-template="2" class="qowt-li-2_0 qowt-list" qowt-list-type="n" named-flow="FLOW-7"><span is="qowt-word-run" qowt-eid="E226" id="E226">Don’t Forget The Long Game:</span><span is="qowt-word-run" qowt-eid="E227" id="E227" named-flow="FLOW-8">Although you do want to push for high numbers in the short term, as these bursts will often help to sustain you when business inevitably slows as excitement dies down, never forget that advertising has a long game as well. Building </span><span> </span>a recognizable name and brand recognition is what sets apart McDonalds from Joe’s Burger Shack.</p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E216" id="E216" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E217" id="E217">Set Your Budget</span><span is="qowt-word-run" qowt-eid="E218" id="E218">: "The" first step is probably the simplest, but also the most limiting, set your budget. Keep in mind that more money does not automatically equal a more impactful campaign. If you are looking to sell an app that connects members of one specific neighborhood in one specific city, you don’t really need a budget big enough for a nationwide campaign. In fact, you might even be able to get away with something like an influencer putting the word out, in which case you may not even need an advertising campaign. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E219" id="E219" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E220" id="E220"> Know Your Audience:</span><span is="qowt-word-run" qowt-eid="E221" id="E221">This step does seem to contradict with some of what we said earlier, since this is all about figuring out what specific group you are advertising to. Earlier we said that the main goal of advertising is to reach as many people as possible, including those that are not already in your base, but that does not mean it isn’t essential that you know who your base is. For instance, if you were writing a young adult fantasy novel about a group of female heroes fighting against a tyrannical male, your first instinct might be to think that your core demographic is young females between the ages of 14-21. While that is probably true, there would also be some room for young males in college, feminist activist groups, and just fantasy-genre lovers in general. You can test different core groups in order to find the most profitable demographic. The key here is for you to focus on your demographic when creating and advertising so that you can keep your base, while also attempting to expand it. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E222" id="E222" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E223" id="E223">Learn The Metrics:</span><span is="qowt-word-run" qowt-eid="E224" id="E224">Understanding the metrics of likes, clicks, comments, and conversions is essential to your advertising campaign. Not only are these going to be the units by which you measure the success of the campaign, but the ratios will be used to adapt your campaign to trends and changes in the future. For example, if you are receiving five likes for every one conversion (actual sales made after likes and clicks), then you are in pretty good shape, but one thousand likes for every one conversion means there is probably something amiss, and you will need to find a way to close the deal on interested users. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="2" qowt-eid="E225" id="E225" qowt-template="2" className="qowt-li-2_0 qowt-list" qowt-list-type="n" named-flow="FLOW-7"><span is="qowt-word-run" qowt-eid="E226" id="E226">Don’t Forget The Long Game:</span><span is="qowt-word-run" qowt-eid="E227" id="E227" named-flow="FLOW-8">Although you do want to push for high numbers in the short term, as these bursts will often help to sustain you when business inevitably slows as excitement dies down, never forget that advertising has a long game as well. Building </span><span> </span>a recognizable name and brand recognition is what sets apart McDonalds from Joe’s Burger Shack.</p>
                                         </qowt></div>
                                         </div>
                                         <div id="pageBorders"></div>
@@ -495,10 +495,10 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E228" id="E228"><strong><span is="qowt-word-run" qowt-eid="E229" id="E229">The Magic of The Algorithm</span></strong></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E230" id="E230"><span is="qowt-word-run" qowt-eid="E231" id="E231">The point of creating and introducing the algorithm in the first place was not just to expand Instagram’s base, but to keep users engaged longer. Having a lot of regular users is important for a social media platform, but after that, the money is in keeping them looking at the platform for as long as possible, so that they can see as many advertisements as possible. Here is how the algorithm makes that happen. </span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E232" id="E232"><strong><span is="qowt-word-run" qowt-eid="E235" id="E235">A user logs on and looks at pictures and videos.</span></strong><br /><span is="qowt-word-run" qowt-eid="E233" id="E233"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E236" id="E236" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E237" id="E237">The algorithm collects relevant data about what the user took an interest in, and stores the data for next time. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E238" id="E238" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E239" id="E239">The user comes back, and finds that the pictures and videos they are looking at are now catered to their personal taste, so they spend more time on the platform. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E240" id="E240" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E241" id="E241">The algorithm collects even more specific data, and stores it for next time.</span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E242" id="E242" qowt-template="3" class="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E243" id="E243">Rinse and repeat.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E236" id="E236" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E237" id="E237">The algorithm collects relevant data about what the user took an interest in, and stores the data for next time. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E238" id="E238" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E239" id="E239">The user comes back, and finds that the pictures and videos they are looking at are now catered to their personal taste, so they spend more time on the platform. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E240" id="E240" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E241" id="E241">The algorithm collects even more specific data, and stores it for next time.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="3" qowt-eid="E242" id="E242" qowt-template="3" className="qowt-li-3_0 qowt-list" qowt-list-type="n"><span is="qowt-word-run" qowt-eid="E243" id="E243">Rinse and repeat.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E244" id="E244"><span is="qowt-word-run" qowt-eid="E245" id="E245"></span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E246" id="E246"><span is="qowt-word-run" qowt-eid="E247" id="E247">As you can see, the system is set up to benefit both the user and the advertisers; and benefitting the user and advertisers is good for Instagram as a whole. </span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E248" id="E248"><strong><span is="qowt-word-run" qowt-eid="E251" id="E251">Cheaters Never Prosper</span></strong><br /><span is="qowt-word-run" qowt-eid="E249" id="E249"></span></p>
@@ -520,9 +520,9 @@ export default function BuyInstagramLikes() {
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E266" id="E266"><span is="qowt-word-run" qowt-eid="E267" id="E267">Details, Details…</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E268" id="E268"><span is="qowt-word-run" qowt-eid="E269" id="E269">There is a quote from Fredrick Bachman, a Swedish writer, “Everything is complicated if no one explains it to you”. All of this might seem a little difficult to grasp, and you might be thinking that there has to be a lot of details that you simply are not getting. Well, that is correct. Building an organic following on Instagram is not terribly complicated, but it can seem that way if you don’t have the right help. Here are the definitions of a few words and phrases that you might run into while you’re building your campaign.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E270" id="E270"><span is="qowt-word-run" qowt-eid="E271" id="E271"></span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E272" id="E272" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E273" id="E273"><a href="https://en.wikipedia.org/wiki/Influencer_marketing">Influencer</a>:</span><span is="qowt-word-run" qowt-eid="E274" id="E274"> An influencer is someone with a following so large that they can influence trends and sales on Instagram. A plug from an influencer is not a guarantee of success, but it can definitely help. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E275" id="E275" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E276" id="E276">Social Proof:</span><span is="qowt-word-run" qowt-eid="E277" id="E277"> Put simply, this just means that people are more likely to do something if they see others doing it first. The term was coined by Robert Cialdini, a professor at Arizona State University. Social proof is the reason that influencers matter in social media marketing. </span></p>
-                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E278" id="E278" qowt-template="1" class="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E279" id="E279">Organic Likes: "This" means likes that came from actual people that actually have an interest in your content. There is such a thing as “organic marketing services”, but these are paid for and not really organic at all. Organic likes are not paid for, not bots, and not duped into thinking your product is something other than what it really is. Without a doubt there is nothing better for your marketing campaign than a lot of <a href="https://goread.io/buy-instagram-likes">truly organic likes</a>.</span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E272" id="E272" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E273" id="E273"><a href="https://en.wikipedia.org/wiki/Influencer_marketing">Influencer</a>:</span><span is="qowt-word-run" qowt-eid="E274" id="E274"> An influencer is someone with a following so large that they can influence trends and sales on Instagram. A plug from an influencer is not a guarantee of success, but it can definitely help. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E275" id="E275" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E276" id="E276">Social Proof:</span><span is="qowt-word-run" qowt-eid="E277" id="E277"> Put simply, this just means that people are more likely to do something if they see others doing it first. The term was coined by Robert Cialdini, a professor at Arizona State University. Social proof is the reason that influencers matter in social media marketing. </span></p>
+                                        <p is="qowt-word-para" qowt-lvl="0" qowt-entry="1" qowt-eid="E278" id="E278" qowt-template="1" className="qowt-li-1_0 qowt-list" qowt-list-type="b"><span is="qowt-word-run" qowt-eid="E279" id="E279">Organic Likes: "This" means likes that came from actual people that actually have an interest in your content. There is such a thing as “organic marketing services”, but these are paid for and not really organic at all. Organic likes are not paid for, not bots, and not duped into thinking your product is something other than what it really is. Without a doubt there is nothing better for your marketing campaign than a lot of <a href="https://goread.io/buy-instagram-likes">truly organic likes</a>.</span></p>
                                         <p is="qowt-word-para" qowt-lvl="undefined" qowt-entry="undefined" qowt-eid="E280" id="E280"><span is="qowt-word-run" qowt-eid="E281" id="E281"></span><strong>And also you can buy following Instagram follower packages from Goread.io</strong></p>
                                         </qowt>
                                         <p><a href="https://goread.io/buy-50-instagram-followers"><strong>50 Instagram Followers</strong></a></p>

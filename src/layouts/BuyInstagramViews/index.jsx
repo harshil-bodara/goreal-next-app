@@ -8,27 +8,27 @@ export default function BuyInstagramViews() {
   return (
     <>
         {/* <!-- Start Portfolio Area  --> */}
-        <div class="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
-            <div class="container-fluid plr--30">
-                <div class="row">
+        <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
+            <div className="container-fluid plr--30">
+                <div className="row">
 
-                    <div class="col-lg-12">
-                        <div class="breadcrumb-inner text-center">
-                            <h1 class="title theme-gradient h2" style={{fontSize: "28px !important"}}>Buy Instagram Views with Instant Delivery in 2022</h1>
+                    <div className="col-lg-12">
+                        <div className="breadcrumb-inner text-center">
+                            <h1 className="title theme-gradient h2" style={{fontSize: "28px !important"}}>Buy Instagram Views with Instant Delivery in 2022</h1>
                             <p>Select a package that you like and submit Order Now button</p>
                         </div>
                     </div>
 
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="rwt-portfolio-filter filter-button-default messonry-button text-center mb--30">
-                            <button data-filter=".cat--1" class="is-checked"><span class="filter-text">High-Quality Views</span></button>
-                            <button data-filter=".cat--2"><span class="filter-text">Active Views</span></button>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="rwt-portfolio-filter filter-button-default messonry-button text-center mb--30">
+                            <button data-filter=".cat--1" className="is-checked"><span className="filter-text">High-Quality Views</span></button>
+                            <button data-filter=".cat--2"><span className="filter-text">Active Views</span></button>
                         </div>
                         <div style={{textAlign: "center"}}>
-                            <div class="popup" onClick={popupFunction} style={{color:"#E54196"}}>What's the difference?
-                                <span class="popuptext" id="myPopup" style={{padding: "10px"}}>
+                            <div className="popup" onClick={popupFunction} style={{color:"#E54196"}}>What's the difference?
+                                <span className="popuptext" id="myPopup" style={{padding: "10px"}}>
                                     <strong>High Quality Views</strong>  <br />
                                     These are Views with profile pictures but no further uploads on their account. Auto-refill is enabled within the warranty.
                                     <br />
@@ -38,134 +38,134 @@ export default function BuyInstagramViews() {
                                 </span>
                             </div>
                         </div>
-                        <div class="portfolio-items grid-metro3 mesonry-list">
-                            <div class="resizer"></div>
+                        <div className="portfolio-items grid-metro3 mesonry-list">
+                            <div className="resizer"></div>
 
                             {/* <!-- Start High Quality  --> */}
-                            <div class="portfolio-4 cat--1">
-                                <div class="rwt-pricing-area rn-section-gap">
-                                    <div class="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
-                                    <div class="row row--0">
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                            <div className="portfolio-4 cat--1">
+                                <div className="rwt-pricing-area rn-section-gap">
+                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
+                                    <div className="row row--0">
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     500</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     500 Instagram Views</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>0.89</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>0.89</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D",fontSize: "32px"}}>
                                                                     1000</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     100 Instagram Views</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>1.59</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>1.59</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     2500</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     2500 Instagram Views</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>3.59</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>3.59</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-6 col-12">
-                                            <div class="rn-pricing style-4 active">
-                                                <div class="pricing-table-inner">
-                                                    <div class="pricing-header">
-                                                        <div class="pricing">
-                                                            <h4 class="title" style={{fontSize: "18px"}}>
+                                        <div className="col-lg-3 col-md-6 col-12">
+                                            <div className="rn-pricing style-4 active">
+                                                <div className="pricing-table-inner">
+                                                    <div className="pricing-header">
+                                                        <div className="pricing">
+                                                            <h4 className="title" style={{fontSize: "18px"}}>
                                                                 <a href="#"><span style={{color: "#F54E5D", fontSize: "32px"}}>
                                                                     5000</span><br /><span style={{marginTop: "-15px", fontSize: "14px"}}>
                                                                     5000 Instagram Followers</span></a></h4>
                                                         </div>
-                                                        <div class="pricing">
-                                                            <div class="price-wrapper"><span class="currency">$</span>
-                                                            <span class="price" style={{fontSize: "48px"}}>6.99</span></div>
+                                                        <div className="pricing">
+                                                            <div className="price-wrapper"><span className="currency">$</span>
+                                                            <span className="price" style={{fontSize: "48px"}}>6.99</span></div>
                                                         </div>
                                                     </div>
-                                                    <div class="pricing-body">
-                                                        <ul class="list-style--1">
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>High</strong> Quality</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>No Password</strong> Needed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> Drop <strong>Protection</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong>7/24</strong> Support</li>
-                                                            <li class="li-font"><i class="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
+                                                    <div className="pricing-body">
+                                                        <ul className="list-style--1">
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>High</strong> Quality</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>No Password</strong> Needed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> Drop <strong>Protection</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
+                                                            <li className="li-font"><i className="feather-check"></i> <strong style={{color: "#f54e5d"}}>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
-                                                    <div class="pricing-footer"><a class="btn-default" href="#">Purchase Now</a>
+                                                    <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -230,7 +230,7 @@ export default function BuyInstagramViews() {
                                     </div>
                                 </div>
                             {/* <!-- Start Active Followers  --> */}
-                            <div class="portfolio-4 cat--2"> 
+                            <div className="portfolio-4 cat--2"> 
                                     <div style={{textAlign: "center", padding: "24px", marginTop: "-20px"}}>
                                  <p><a href="https://goread.io/buy-500-instagram-views"><strong>500 Instagram Views for $0.89</strong></a></p>
                                  <p><strong><a href="https://goread.io/buy-1000-instagram-views">1000 Instagram Views for $1.59</a></strong></p>

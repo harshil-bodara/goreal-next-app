@@ -3,11 +3,11 @@ import React from 'react'
 const TermsandCondition = () => {
   return (
     <div>
-        <div class="rwt-elements-area rn-section-gap">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="entry-content">
+        <div className="rwt-elements-area rn-section-gap">
+    <div className="container">
+        <div className="row">
+            <div className="col-lg-12">
+                <div className="entry-content">
                     <h2>Terms and Condition</h2>
                     <p><span>Thanks for using our products and services (&ldquo;Services&rdquo;). The Services are provided by <strong>SOCIAL JOOL LLC (2112727)</strong>, By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this web site are protected by applicable copyright and trademark law.</span></p>
                     <p><span></span></p>
@@ -76,10 +76,10 @@ const TermsandCondition = () => {
                     <br/>
                     <p><span></span></p>
                     <p>SOCIAL JOOL LLC (2112727),</p>
-                    <div class="page" title="Page 1">
-                    <div class="section">
-                    <div class="layoutArea">
-                    <div class="column">
+                    <div className="page" title="Page 1">
+                    <div className="section">
+                    <div className="layoutArea">
+                    <div className="column">
                     <p><span>Sharjah Media City, Sharjah, UAE<br /><br />Los Angeles, California, USA</span></p>
                     <p><span>London, United Kingdom</span></p>
                     </div>
