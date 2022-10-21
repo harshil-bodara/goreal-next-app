@@ -1,5 +1,9 @@
 import React from 'react'
 
+const csdvv = [
+
+]
+
 export default function BuyInstagramFollowers() {
     const popupFunction = (popup) => {
         var popup = document.getElementById("myPopup");

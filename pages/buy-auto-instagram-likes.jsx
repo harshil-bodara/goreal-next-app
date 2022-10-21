@@ -1,5 +1,5 @@
 import React from 'react'
-import BuyAutoInstagramLikes from '../src/layouts/BuyAutoInstagramLikes'
+import BuyAutoInstagramLikes from '../src/components/BuyAutoInstagramLikes'
 import PageLayout from '../src/layouts/PageLayout'
 
 export default function AutoInstagramLikes() {

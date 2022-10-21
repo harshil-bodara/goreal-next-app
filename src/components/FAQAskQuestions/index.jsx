@@ -55,13 +55,13 @@ const FAQAskQuestions = () => {
                                                 - Double check your Instagram username. <br />
                                                 - Please don't change Instagram username before order completion. <br />
                                                 - The <strong>Instagram account or post</strong>, still exists and has
-                                                <strong>not been removed.</strong> <br />
+                                                <strong> not been removed.</strong> <br />
                                                 - The video follows Instagram’s policies and has <strong>not been
                                                     removed.</strong> <br />
                                                 - <strong>Allow 12-48 hours</strong> for completion of order delivery.
                                                 <br /> <br />
                                                 If you need further assistance, you may contact us via email -
-                                                <strong>admin@goread.io</strong> or using our <a href="contact.html"
+                                                <strong> admin@goread.io</strong> or using our <a href="contact.html"
                                                     style={{ color: "#059DFF" }}>contact us</a> page.
                                             </div>
                                         </div>

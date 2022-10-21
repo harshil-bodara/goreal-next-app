@@ -1,5 +1,5 @@
 import React from 'react'
-import Checkout from '../src/layouts/Checkout'
+import Checkout from '../src/components/Checkout'
 import PageLayout from '../src/layouts/PageLayout'
 
 export default function checkout() {

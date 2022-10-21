@@ -1,5 +1,5 @@
 import PageLayout from "../src/layouts/PageLayout";
-import TermsandCondition from "../src/layouts/TermsandCondition";
+import TermsandCondition from "../src/components/TermsandCondition";
 
 const TermsAndCondition = () => {
 return (

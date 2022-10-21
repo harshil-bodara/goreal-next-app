@@ -1,5 +1,5 @@
 import React from 'react'
-import BuyInstagramGrowth from '../src/layouts/BuyInstagramGrowth'
+import BuyInstagramGrowth from '../src/components/BuyInstagramGrowth'
 import PageLayout from '../src/layouts/PageLayout'
 
 export default function InstagramGrowth() {

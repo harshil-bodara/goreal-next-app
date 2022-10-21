@@ -174,7 +174,7 @@ export default function BuyInstagramStoryViews() {
                                                 </div>
                                                 <div>
                                                     <hr />
-                                                    <h5 style={{color: "#F75054"}}>PRICE: "$0".00</h5>
+                                                    <h5 style={{color: "#F75054"}}>PRICE: $0.00</h5>
                                                 </div>
                                                 <div className="form-group">
                                                     <button name="submit" type="submit" id="submit" className="btn-default btn-large rn-btn">

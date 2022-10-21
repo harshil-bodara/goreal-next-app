@@ -9,7 +9,7 @@ export default function BuyInstagramLikes() {
 
   return (
     <div>
-                <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
+        <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
             <div className="container-fluid plr--30">
                 <div className="row">
 

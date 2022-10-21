@@ -1,12 +1,12 @@
 import PageLayout from '../src/layouts/PageLayout';
-import Slider from '../src/layouts/Slider';
-import About from '../src/layouts/About';
-import Service from '../src/layouts/Service';
-import Timeline from '../src/layouts/Timeline';
-import Feedback from '../src/layouts/Feedback';
-import QuickLinks from '../src/layouts/QuickLinks';
-import Footer from '../src/layouts/Footer';
-import Copyright from '../src/layouts/Copyright';
+import Slider from '../src/components/Slider';
+import About from '../src/components/About';
+import Service from '../src/components/Service';
+import Timeline from '../src/components/Timeline';
+import Feedback from '../src/components/Feedback';
+import QuickLinks from '../src/components/QuickLinks';
+import Footer from '../src/components/Footer';
+import Copyright from '../src/components/Copyright';
 
 export default function Home() {
   return (

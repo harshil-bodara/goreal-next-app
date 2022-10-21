@@ -1,8 +1,8 @@
 
 import Head from "next/head";
-import Header from "./../Header";
-import HeaderNews from "../HeaderNews";
-import Footer from "../Footer";
+import Header from "../../components/Header";
+import HeaderNews from "../../components/HeaderNews";
+import Footer from "../../components/Footer";
 
 const PageLayout = ({ children }) => {
 

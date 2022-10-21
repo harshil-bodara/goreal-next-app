@@ -1,4 +1,4 @@
-import FAQAskQuestions from "../src/layouts/FAQAskQuestions";
+import FAQAskQuestions from "../src/components/FAQAskQuestions";
 import PageLayout from "../src/layouts/PageLayout";
 
 const faq = () => {
