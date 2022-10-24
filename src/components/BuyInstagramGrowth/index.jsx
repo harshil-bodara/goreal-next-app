@@ -1,20 +1,40 @@
 import React from 'react'
+import OfferCompo from '../OfferCompo'
+import OffersHeader from "../OffersHeader"
+
+
+const titleStyle = { color: "#F54E5D", fontSize: "24px" }
+
+const Offers=[
+    {
+        count:"",
+        title:"Personal Plan",
+        rate:0.89,
+        month:"per month",
+        titleStyle
+    },
+    {
+        count:"",
+        title:"Influencer Plan",
+        rate:0.99,
+        month:"per month",
+        titleStyle
+    },
+    {
+        count:"",
+        title:"Business Plan",
+        rate:2.59,
+        month:"per month",
+        titleStyle
+    }
+  ]
 
 export default function BuyInstagramGrowth() {
   return (
     <div>
         <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
             <div className="container-fluid plr--30">
-                <div className="row">
-
-                    <div className="col-lg-12">
-                        <div className="breadcrumb-inner text-center">
-                            <h1 className="title theme-gradient h2" style={{fontSize:" 28px !important"}}>Buy Instagram Growth with Instant Delivery in 2022</h1>
-                            <p>Select a package that you like and submit Order Now button</p>
-                        </div>
-                    </div>
-
-                </div>
+             <OffersHeader description={"Select a package that you like and submit Order Now button"} title={"Buy Instagram Growth with Instant Delivery in 2022"} />
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="portfolio-items grid-metro3 mesonry-list">
@@ -24,111 +44,7 @@ export default function BuyInstagramGrowth() {
                                 <div className="rwt-pricing-area rn-section-gap">
                                     <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
                                     <div className="row row--0">
-                                        <div className="col-lg-4 col-md-6 col-12">
-                                            <div className="rn-pricing style-4">
-                                                <div className="pricing-table-inner">
-                                                    <div className="pricing-header">
-                                                        <div className="pricing">
-                                                            <h4 className="title" style={{fontSize:" 18px"}}>
-                                                                <a href="#"><span style={{color:" #F54E5D",fontSize:" 24px"}}>
-                                                                    Personal Plan</span>
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div className="pricing">
-                                                            <div className="price-wrapper"><span className="currency">$</span>
-                                                            <span className="price" style={{fontSize:" 48px"}}>29.00</span></div>
-                                                            <p className="price-title" style={{marginBottom: "-20px"}}>per month</p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="pricing-body">
-                                                        <ul className="list-style--1">
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>1,000+</strong> Real Followers</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>200+</strong> Views Per Video</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>50+</strong> Likes Per Pos</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>30+ Instagram Autosaves per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>15+ Auto Comments per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>200+ Auto Impressions per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instagram Profile Visits</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Unlimited Future Posts</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>One Time Payment, Not Recurring</strong></li>
-                                                        </ul>   
-                                                    </div>
-                                                    <div className="pricing-footer"><a className="btn-default" href="#">Start Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-4 col-md-6 col-12">
-                                            <div className="rn-pricing style-4">
-                                                <div className="pricing-table-inner">
-                                                    <div className="pricing-header">
-                                                        <div className="pricing">
-                                                            <h4 className="title" style={{fontSize:" 18px"}}>
-                                                                <a href="#"><span style={{color:" #F54E5D", fontSize:" 24px"}}>
-                                                                    Influencer Plan</span>
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div className="pricing">
-                                                            <div className="price-wrapper"><span className="currency">$</span>
-                                                            <span className="price" style={{fontSize:" 48px"}}>69.00</span></div>
-                                                            <p className="price-title" style={{marginBottom: "-20px"}}>per month</p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="pricing-body">
-                                                        <ul className="list-style--1">
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>5,000+</strong> Real Followers</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>1000+</strong> Views Per Video</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>250+</strong> Likes Per Pos</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>60+ Instagram Autosaves per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>30+ Auto Comments per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>1000+ Auto Impressions per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instagram Profile Visits</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Unlimited Future Posts</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>One Time Payment, Not Recurring</strong></li>
-                                                        </ul>   
-                                                    </div>
-                                                    <div className="pricing-footer"><a className="btn-default" href="#">Start Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-4 col-md-6 col-12">
-                                            <div className="rn-pricing style-4">
-                                                <div className="pricing-table-inner">
-                                                    <div className="pricing-header">
-                                                        <div className="pricing">
-                                                            <h4 className="title" style={{fontSize:" 18px"}}>
-                                                                <a href="#"><span style={{color:" #F54E5D", fontSize:" 24px"}}>
-                                                                    Business Plan</span>
-                                                                </a>
-                                                            </h4>
-                                                        </div>
-                                                        <div className="pricing">
-                                                            <div className="price-wrapper"><span className="currency">$</span>
-                                                            <span className="price" style={{fontSize:" 48px"}}>99.00</span></div>
-                                                            <p className="price-title" style={{marginBottom: "-20px"}}>per month</p>
-                                                        </div>
-                                                    </div>
-                                                    <div className="pricing-body">
-                                                        <ul className="list-style--1">
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>10,000+</strong> Real Followers</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>2000+</strong> Views Per Video</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>1000+</strong> Likes Per Pos</li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>100+ Instagram Autosaves per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>50+ Auto Comments per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>2000+ Auto Impressions per post</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Instagram Profile Visits</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>Unlimited Future Posts</strong></li>
-                                                            <li className="li-font"><i className="feather-check"></i> <strong>One Time Payment, Not Recurring</strong></li>
-                                                        </ul>   
-                                                    </div>
-                                                    <div className="pricing-footer"><a className="btn-default" href="#">Start Now</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    {Offers.map(({selected, ...offer}) => <OfferCompo offer={offer} selected={selected}/>)}
                                     </div>
                                     <div className="row mt--40 row--15 mt--100 align-items-center"  data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                                         <div className="col-lg-3 mt_md--30 mt_sm--30">
