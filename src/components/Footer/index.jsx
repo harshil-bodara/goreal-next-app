@@ -27,14 +27,14 @@ const Footer = () => {
 						<div className="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div className="rn-footer-widget">
 								<h4 className="title">Information</h4>
-								<h6 className="subtitle" style={{ fontSize: "12px" }}>We are not authorized, endorsed, or sponsored by Instagram. USA/UK Based Company</h6>
+								<h6 className="subtitle">We are not authorized, endorsed, or sponsored by Instagram. USA/UK Based Company</h6>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div className="rn-footer-widget">
 								<h4 className="title">Contact Informations</h4>
 								<div className="inner">
-									<h6 className="subtitle" style={{ fontSize: "12px" }}>Tel: +10988487XXX <br />
+									<h6 className="subtitle">Tel: +10988487XXX <br />
 										E-mail: admin@goread.io <br />
 										Company: Goread.io is not affiliated with Instagram, Facebook, or any Instagram third-party partners in any way.</h6>
 								</div>

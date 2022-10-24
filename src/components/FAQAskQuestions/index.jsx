@@ -31,8 +31,7 @@ const FAQAskQuestions = () => {
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExamplea">
                                             <div className="accordion-body card-body">
                                                 You can buy Instagram followers from 50-100000 quantity. If you want to
-                                                order custom amount. You can <a href="contact.html"
-                                                    style={{ color: "#059DFF" }}>contact us.</a>
+                                                order custom amount. You can <a href="contact.html" className="text-blue">contact us.</a>
                                             </div>
                                         </div>
                                     </div>
@@ -61,8 +60,7 @@ const FAQAskQuestions = () => {
                                                 - <strong>Allow 12-48 hours</strong> for completion of order delivery.
                                                 <br /> <br />
                                                 If you need further assistance, you may contact us via email -
-                                                <strong> admin@goread.io</strong> or using our <a href="contact.html"
-                                                    style={{ color: "#059DFF" }}>contact us</a> page.
+                                                <strong> admin@goread.io</strong> or using our <a href="contact.html" className="text-blue">contact us</a> page.
                                             </div>
                                         </div>
                                     </div>

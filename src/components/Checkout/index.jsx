@@ -42,30 +42,30 @@ export default function Checkout() {
                                                     <div className="single-list">
                                                         <div className="d-flex">
                                                             <img src="/assets/images/favicon.ico" width="75px" height="75px" alt="" />
-                                                            <h4 className="price-title ml--15 mt--15">
+                                                            <h4 className="price-title ml--15 mt--15 change-username">
                                                                 @Goread.io 
                                                                 <br /> 
-                                                                <a href="#" style={{color: "#ACACAC",fontSize: "12px"}}>Change Username</a> 
+                                                                <a href="#">Change Username</a> 
                                                             </h4>
                                                         </div>
-                                                        <div className="d-flex mt--50" style={{justifyContent: "space-between"}}>
+                                                        <div className="d-flex mt--50 justify-content-between">
                                                             <h4 className="price-title">100 Followers</h4>
                                                             <h4 className="price-title"> $2,97</h4>
                                                         </div>
                                                         <div>
-                                                            <h4 className="price-title mt--10" style={{fontSize: "14px", color: "#CC41AB"}}> Add 50 followers and save %25</h4>
+                                                            <h4 className="price-title mt--10 add-followers"> Add 50 followers and save %25</h4>
                                                             <div className="pricing-btn-group">
                                                                 <button className="btn-default">+ Add for $1.11 <del>$1.49</del></button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div className="single-list mt--50">
-                                                        <div className="d-flex" style={{justifyContent: "space-between"}}>
+                                                        <div className="d-flex justify-content-between">
                                                             <h4 className="price-title">Total to pay</h4>
                                                             <h4 className="price-title"> $2,97</h4>
                                                         </div>
-                                                        <h4 className="price-title mt--10" style={{fontSize: "14px", color: "#7248D0"}}><a href="#">Apply coupon code +</a></h4>
-                                                        <hr style={{marginBottom: "30px", marginTop: "30px"}}/>
+                                                        <h4 className="price-title mt--10 coupon-code"><a href="#">Apply coupon code +</a></h4>
+                                                        <hr className='my-5'/>
                                                         <ul className="plan-offer-list">
                                                             <li className="theme-gradient">
                                                                 <i className="feather-check"></i> Fast delivery

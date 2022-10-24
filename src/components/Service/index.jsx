@@ -27,7 +27,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>Fast Delivery</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>We’re lightning
+									<p className="description b1 color-gray mb--0 font-16">We’re lightning
 										fast! As soon as your sign up and make your first payment, we begin boosting
 										your Instagram account and finding new followers, likes, views for your account
 										in a matter of minutes. New followers come in at a fast pace as we continue
@@ -47,7 +47,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>High Quality Services</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>We only give you
+									<p className="description b1 color-gray mb--0 font-16">We only give you
 										the highest quality Instagram followers, likes, views. Quality is one of our
 										most important goals at Goread.io. We always make sure that your Instagram
 										followers are long-lasting, reliable, and that the packages are affordable.</p>
@@ -66,7 +66,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>Our Guarantee</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>Satisfaction is
+									<p className="description b1 color-gray mb--0 font-16">Satisfaction is
 										our number one priority! If you are not happy, you will receive a 100% money
 										back. This is why we stand high and remain the best place to buy all Instagram
 									</p>
@@ -86,7 +86,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>Privacy & Safety</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>We don’t require
+									<p className="description b1 color-gray mb--0 font-16">We don’t require
 										your password. When people follow an account on Instagram, they don’t ask your
 										account’s password. So, naturally, we don’t need yours either.</p>
 								</div>
@@ -104,7 +104,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>24/7 Help</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>Technical
+									<p className="description b1 color-gray mb--0 font-16">Technical
 										support for all our services 24/7 to help you. If you have some query, drop an
 										email to our support team. We are delighted to assist you</p>
 								</div>
@@ -122,7 +122,7 @@ const Service = () => {
 									<h4 className="title">
 										<Link href="#"><a>Secure Payments</a></Link>
 									</h4>
-									<p className="description b1 color-gray mb--0" style={{ fontSize: "16px" }}>We accept all
+									<p className="description b1 color-gray mb--0 font-16">We accept all
 										Visa, Master, AMEX, Diners club, Maestro Credit and Debit card payments</p>
 								</div>
 							</div>

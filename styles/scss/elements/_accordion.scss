@@ -50,6 +50,9 @@
             color: var(--color-body);
             padding: 30px 20px;
             border-top: 1px solid var(--color-border);
+            .text-blue{
+                color: #059DFF;
+            }
         }
 
         & + .card {

@@ -5,16 +5,16 @@ const OfferCompo = ({ selected, offer }) => {
         <div className="pricing-table-inner">
           <div className="pricing-header">
             <div className="pricing">
-              <h4 className="title" style={{ fontSize: "18px" }}>
-                <a href="#"><span style={{ color: "#F54E5D", fontSize: "32px" }}>{offer.count}</span>
-                  <br /><span style={{ marginTop: "-15px", fontSize: "14px", ...offer.titleStyle }}>
+              <h4 className="title">
+                <a href="#"><span className="offer-count">{offer.count}</span>
+                  <br /><span className="offer-cmt">
                     {offer.title}</span></a></h4>
             </div>
             <div className="pricing">
               <div className="price-wrapper"><span className="currency">$</span>
-                <span className="price" style={{ fontSize: "48px" }}>{offer.rate}</span></div>
+                <span className="price">{offer.rate}</span></div>
                 {
-                  offer.month ? <p className="price-title" style={{marginBottom: "-20px"}}>{offer.month}</p>:""
+                  offer.month ? <p className="price-title">{offer.month}</p>:""
                 }
             </div>
           </div>
@@ -26,7 +26,7 @@ const OfferCompo = ({ selected, offer }) => {
               <li className="li-font"><i className="feather-check"></i> <strong>Safe</strong> & <strong>Easy</strong></li>
               <li className="li-font"><i className="feather-check"></i> <strong>Instant Delivery</strong> Guarenteed</li>
               <li className="li-font"><i className="feather-check"></i> <strong>7/24</strong> Support</li>
-              <li className="li-font"><i className="feather-check"></i> <strong style={{ color: "#f54e5d" }}>Secure Payments</strong></li>
+              <li className="li-font"><i className="feather-check"></i> <strong className="text-pink">Secure Payments</strong></li>
             </ul>
           </div>
           <div className="pricing-footer"><a className="btn-default" href="#">Purchase Now</a>

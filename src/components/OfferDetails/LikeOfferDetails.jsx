@@ -5,14 +5,14 @@ export default function LikeOfferDetails({index,offer}) {
   return (
     <div className={`portfolio-4 cat--${index}`}>
     <div className="rwt-pricing-area rn-section-gap">
-        <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{ marginTop: "-150px" }}>
+        <div className="wrapper plr--100 plr_md--15 plr_sm--15 mt-150">
             <div className="row row--0">
                 {offer.map(({ selected, ...offer }) => <OfferCompo offer={offer} selected={selected} />)}
             </div>
         </div>
     </div>
 
-    <div style={{ textAlign: "center", padding: "24px", marginTop: "-80px" }}>
+    <div className='text-center cmt-details'>
         {/* <!-- Category Content --> */}
         <p><strong>Are there benefits to <a href="http://www.magicsocial.net/">buying Instagram likes</a>?</strong></p>
         <p>We all know that Instagram is all about name or brand recognition. If you don’t get your name out there, no one knows who you are. You might have a simple goal, to express yourself, show your style, and win over Instagram followers organically. Unfortunately, you will only go so far with that method. Instead, you need to start impressing viewers and chasing after them for name recognition. This is where <a href="https://www.techcrunch50.com/buy-instagram-likes">buying Instagram likes</a> comes in handy. When you buy Instagram likes, you can easily promote a campaign or increase your brand awareness through social media and gain widespread recognition for what you’re showcasing. You will gain Instagram popularity, leave a lasting impression, and dramatically increase your response rates. Of course, these are only just some of the fantastic benefits of buying IG likes. You can also <a href="https://goread.io/buy-instagram-followers">buy instagram followers from Goread.io</a></p>

@@ -26,6 +26,9 @@
     }
 
     p {
+        .text-blue{
+            color: #059DFF;
+        }
         &:empty {
             display: none;
         }
@@ -51,4 +54,11 @@
         padding-bottom: 19px;
         opacity: 0.6;
     }
+}
+.quick-links{
+    margin-top: -100px;
+}
+.border-pink-radius{
+    border: 1px solid rgb(239, 74, 115);
+    border-radius: 8px;
 }

@@ -5,14 +5,14 @@ export default function CustomeCommentOfferDetails({ offer ,index}) {
   return (
     <div className={`portfolio-4 cat--${index}`}>
       <div className="rwt-pricing-area rn-section-gap">
-        <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{ marginTop: "-150px" }}>
+        <div className="wrapper plr--100 plr_md--15 plr_sm--15 mt-150">
           <div className="row row--0">
             {offer?.map(({ selected, ...offer }) => <OfferCompo offer={offer} selected={selected} />)}
           </div>
         </div>
       </div>
 
-      <div style={{ textAlign: " center", padding: "24px", marginTop: "-80px" }}>
+      <div className='text-center cmt-details'>
         {/* <!-- Category Content --> */}
         <p><qowt is-first-page-in-section="" named-flow="FLOW-1"></qowt></p>
         <div id="contentsContainer" className="style-scope qowt-page">

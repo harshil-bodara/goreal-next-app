@@ -42,7 +42,7 @@ export default function BuyInstagramGrowth() {
                             {/* <!-- Start High Quality  --> */}
                             <div className="portfolio-4 cat--1">
                                 <div className="rwt-pricing-area rn-section-gap">
-                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{marginTop: "-150px"}}>
+                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15 pricing-like-box">
                                     <div className="row row--0">
                                     {Offers.map(({selected, ...offer}) => <OfferCompo offer={offer} selected={selected}/>)}
                                     </div>
@@ -51,7 +51,7 @@ export default function BuyInstagramGrowth() {
                                             <img src="/assets/images/header_top.png" />
                                         </div>
                                         <div className="col-lg-2"></div>
-                                        <div className="col-lg-7" style={{textAlign: "center"}}>
+                                        <div className="col-lg-7 text-center">
                                             <form className="contact-form-1 rwt-dynamic-form" id="contact-form" method="POST" action="mail.php">
                                                 <div className="form-group">
                                                     <input type="text" name="contact-name" id="contact-name" placeholder="Your Instagram Name" />
@@ -61,7 +61,7 @@ export default function BuyInstagramGrowth() {
                                                 </div>
                                                 <div>
                                                     <hr />
-                                                    <h5 style={{color:" #F75054"}}>PRICE: $0.00</h5>
+                                                    <h5 className='font-orange'>PRICE: $0.00</h5>
                                                 </div>
                                                 <div className="form-group">
                                                     <button name="submit" type="submit" id="submit" className="btn-default btn-large rn-btn">

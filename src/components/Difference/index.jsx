@@ -6,9 +6,9 @@ export default function Difference({quality,premium}) {
     popup.classList.toggle("show");
 }
 return (
-    <div style={{ textAlign: "center" }}>
-      <div className="popup" onClick={popupFunction} style={{ color: "#E54196" }}>What's the difference?
-        <span className="popuptext" id="myPopup" style={{ padding: "10px" }}>
+    <div className='text-center'>
+      <div className="popup text-pink" onClick={popupFunction}>What's the difference?
+        <span className="popuptext p-3" id="myPopup">
           <strong>High Quality Views</strong>  <br />
           {quality}
           <br />

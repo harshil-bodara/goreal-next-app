@@ -32,12 +32,12 @@ export default function BuyInstagramComments() {
     return (
         <div>
             <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
-                <div className="container-fluid plr--30">
+                <div className="container-fluid plr--30 insta-comments">
                     <div className="row">
 
                         <div className="col-lg-12">
                             <div className="breadcrumb-inner text-center">
-                                <h1 className="title theme-gradient h2" style={{ fontSize: "28px !important" }}>Buy Instagram Comments with Instant Delivery in 2022</h1>
+                                <h1 className="title theme-gradient h2">Buy Instagram Comments with Instant Delivery in 2022</h1>
                                 <p>Select a package that you like and submit Order Now button</p>
                             </div>
                         </div>

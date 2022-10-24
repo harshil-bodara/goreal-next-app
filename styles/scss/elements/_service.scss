@@ -246,6 +246,9 @@
 
 
 .service-wrapper {
+    .font-16{
+        font-size: 16px;
+    }
     &>[class*=col] {
 
         &:nth-child(2)  {

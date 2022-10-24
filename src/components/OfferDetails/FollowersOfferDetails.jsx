@@ -5,14 +5,14 @@ export default function FollowersOfferDetails({ offers, index }) {
   return (
     <div className={`portfolio-4 cat--${index}`}>
       <div className="rwt-pricing-area rn-section-gap">
-        <div className="wrapper plr--100 plr_md--15 plr_sm--15" style={{ marginTop: "-150px" }}>
+        <div className="wrapper plr--100 plr_md--15 plr_sm--15 mt-150">
           <div className="row row--0">
             {offers.map(({ selected, ...offer }) => <OfferCompo offer={offer} selected={selected} />)}
           </div>
         </div>
       </div>
 
-      <div style={{ textAlign: "center", padding: "24px", marginTop: "-80px" }}>
+      <div className='text-center cmt-details'>
         {/* <!-- Category Content --> */}
         <p><strong>Are there benefits to buying Instagram followers?</strong></p>
         <p>Starting a new Instagram page with zero followers is challenging. It’s challenging to <a href="https://blog.hubspot.com/marketing/buy-instagram-followers">build and maintain a following</a> when you start at the very bottom. <a href="https://goread.io/buy-instagram-followers">Buying Cheap active Instagram followers through Goread.io</a> can save you time and frustration. We can help you reach countless new IG followers and increase your social media influence. Instagram’s algorithm naturally favors accounts with more followers and <a href="http://magicsocial.net/">Instagram likes</a>. When you buy instagram followers , your page and posts are valued higher by Instagram’s algorithm, which turns into more traffic on your account from your target market. Getting your Instagram page and message out there is hard, but Goread.io makes the process easy and straightforward. You can pay from any Visa, master, amex credit, debit card. And we have recently added a section to <a href="https://goread.io/buy-instagram-comments">Buy Instagram comments</a> as well. We also have <a href="https://activefollowers.uk/">Instagram followers UK</a> services as well.</p>

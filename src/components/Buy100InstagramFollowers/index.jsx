@@ -21,16 +21,16 @@ export default function Buy100InstagramFollowers() {
                                                 <div className="pricing-offer">
                                                     <div className="single-list">
                                                         <div>
-                                                            <h4 className="price-title" style={{fontSize: "24px"}}>100 Instagram Followers</h4>
+                                                            <h4 className="price-title followers-count">100 Instagram Followers</h4>
                                                         </div>
                                                         <div>
-                                                            <h4 className="price-title mt--10" style={{fontSize: "17px", color: "#CC41AB"}}>(4 Reviews)</h4>
+                                                            <h4 className="price-title mt--10 review-title">(4 Reviews)</h4>
                                                         </div>
                                                     </div>
                                                     <div className="single-list mt--50">
-                                                        <div className="d-flex" style={{justifyContent: "space-between"}}>
+                                                        <div className="d-flex justify-content-between">
                                                             <h4 className="price-title">Total to pay</h4>
-                                                            <h4 className="price-title" style={{color: "#73BE42"}}> $1,89</h4>        
+                                                            <h4 className="price-title font-green"> $1,89</h4>        
                                                         </div> 
                                                     </div>
                                                     <hr />
@@ -42,7 +42,7 @@ export default function Buy100InstagramFollowers() {
                                                             <li className="li-font"> <strong>Safe</strong> & <strong>Easy</strong></li>
                                                             <li className="li-font"> <strong>Instant Delivery</strong> Guarenteed</li>
                                                             <li className="li-font"> <strong>7/24</strong> Support</li>
-                                                            <li className="li-font"> <strong style={{color: "#73BE42"}}>Secure Payments</strong></li>
+                                                            <li className="li-font"> <strong className='font-green'>Secure Payments</strong></li>
                                                         </ul>   
                                                     </div>
                                                     <div className="pricing-footer"><a className="btn-default" href="#">Buy Now</a></div>

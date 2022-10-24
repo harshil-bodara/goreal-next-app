@@ -168,6 +168,12 @@
 
 .grid-metro3 {
     margin: 0 -15px;
+    .pricing-like-box{
+        margin-top: -150px;
+        .font-orange{
+            color: #F75054;
+        }
+    }
     .portfolio-4{
         width: 100%;
         padding: 0 15px;
@@ -210,13 +216,28 @@
     }
 }
 
+.insta-comments{
+    h1.h2{
+        font-size: 28px !important;
+    }
+}
+.cmt-details{
+    padding: 24px;
+    margin-top: -80px;
+}
+.mt-150{
+    margin-top: -150px;
+}
+
 /* Popup container */
 .popup {
     position: relative;
     display: inline-block;
     cursor: pointer;
   }
-  
+  .text-pink{
+    color: #E54196;
+  }
   /* The actual popup (appears on top) */
   .popup .popuptext {
     visibility: hidden;
