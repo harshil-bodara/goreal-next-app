@@ -168,6 +168,26 @@
 
 .grid-metro3 {
     margin: 0 -15px;
+    .pricing-like-box{
+        margin-top: -150px;
+        .font-orange{
+            color: #F75054;
+        }
+    }
+    .portfolio-4{
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 30px;
+        @media #{$md-layout} {
+            width: 50%;
+        }
+        @media #{$sm-layout} {
+            width: 50%;
+        }
+        @media #{$large-mobile} {
+            width: 100%;
+        }
+    }
     .portfolio-3 {
         width: 33.33%;
         padding: 0 15px;
@@ -195,3 +215,84 @@
         }
     }
 }
+
+.insta-comments{
+    h1.h2{
+        font-size: 28px !important;
+    }
+}
+.cmt-details{
+    padding: 24px;
+    margin-top: -80px;
+}
+.mt-150{
+    margin-top: -150px;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .text-pink{
+    color: #E54196;
+  }
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -250px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  .li-font {
+    font-size: 14px;
+  }

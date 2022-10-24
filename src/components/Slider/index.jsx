@@ -8,10 +8,10 @@ const Slider = () => {
 				<div className="row row--30 align-items-center">
 					<div className="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
 						<div className="inner text-start">
-							<h1 className="title color-white" style={{ fontSize: "42px" }} data-sal="slide-up"
+							<h1 className="title color-white" data-sal="slide-up"
 								data-sal-duration="700">Super Real Instagram followers, likes, power likes, views,
 								comments, saves in Minutes</h1>
-							<p className="description color-white" style={{ fontSize: "12px" }} data-sal="slide-up"
+							<p className="description color-white" data-sal="slide-up"
 								data-sal-duration="700" data-sal-delay="100">Instagram is one of the best social media
 								platforms to reach millions of followers. Buying active and real Instagram followers
 								will allow you to increase your network of followers naturally. Not only this but you
@@ -23,7 +23,7 @@ const Slider = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-5 order-1 order-lg-2" style={{ marginTop: "30px" }} data-sal="slide-up"
+					<div className="col-lg-5 order-1 order-lg-2 mt-5" data-sal="slide-up"
 						data-sal-duration="700" data-sal-delay="100">
 						<div className="thumbnail">
 							<img src="assets/images/header_top.png" alt="" />

@@ -1,0 +1,90 @@
+import React from 'react'
+import OfferCompo from '../OfferCompo'
+import OffersHeader from '../OffersHeader'
+
+const Offers=[
+    {
+        count:100,
+        title:"100 Instagram Story Views",
+        rate:1.22
+    },
+    {
+        count:1000,
+        title:"1000 Instagram Story Views",
+        rate:4.99
+    },
+    {
+        count:2000,
+        title:"2000 Instagram Story Views",
+        rate:7.99
+    },
+    {
+        count:5000,
+        title:"5000 Instagram Story Views",
+        rate:12.99,
+        selected:true
+    }
+]
+
+export default function BuyInstagramStoryViews() {
+  return (
+    <div>
+        <div className="rwt-portfolio-area rn-section-gap masonary-wrapper-activation">
+            <div className="container-fluid plr--30">
+            <OffersHeader description={"Select a package that you like and submit Order Now button"} title={'Buy Instagram Story Views with Instant Delivery in 2022'}  />
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="portfolio-items grid-metro3 mesonry-list">
+                            <div className="resizer"></div>
+                            {/* <!-- Start High Quality  --> */}
+                            <div className="portfolio-4 cat--1">
+                                <div className="rwt-pricing-area rn-section-gap">
+                                    <div className="wrapper plr--100 plr_md--15 plr_sm--15 pricing-like-box">
+                                    <div className="row row--0">
+                                    {Offers.map(({selected, ...offer}) => <OfferCompo offer={offer} selected={selected}/>)}
+                                    </div>
+                                    <div className="row mt--40 row--15 mt--100 align-items-center"  data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                        <div className="col-lg-3 mt_md--30 mt_sm--30">
+                                            <img src="/assets/images/header_top.png" />
+                                        </div>
+                                        <div className="col-lg-2"></div>
+                                        <div className="col-lg-7 text-center">
+                                            <form className="contact-form-1 rwt-dynamic-form" id="contact-form" method="POST" action="mail.php">
+                                                <div className="form-group">
+                                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Instagram Name" />
+                                                </div>
+                                                <div className="form-group">
+                                                    <input type="email" id="contact-email" name="contact-email" placeholder="Your Email" />
+                                                </div>
+                                                <div className="form-group">
+                                                <label for="packages" className='mb-3'>Select Quantity</label>
+                                                    <select id="packages" name="package" className='bg-transparent'>
+                                                    <option value="volvo">100</option>
+                                                    <option value="saab">1000</option>
+                                                    <option value="fiat">2000</option>
+                                                    <option value="audi">5000</option>
+                                                    </select>
+                                                </div>
+                                                <div>
+                                                    <hr />
+                                                    <h5 className='font-orange'>PRICE: $0.00</h5>
+                                                </div>
+                                                <div className="form-group">
+                                                    <button name="submit" type="submit" id="submit" className="btn-default btn-large rn-btn">
+                                                        <span>Buy Now</span>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  )
+}

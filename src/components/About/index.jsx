@@ -17,9 +17,9 @@ const About = () => {
 								data-sal-delay="300">
 								<h4 className="subtitle"><span className="theme-gradient">GOREAD.IO</span></h4>
 								<h2 className="title mt--10">See why we are the best!</h2>
-								<p>When you <Link href="buy-instagram-followers"><a style={{ color: "#059DFF" }}>buy Instagram
-									followers</a></Link>, <Link href="buy-instagram-views"><a style={{ color: "#059DFF" }}>buy
-										Instagram views</a></Link> or, <Link href="buy-instagram-likes"><a style={{ color: "#059DFF" }}>buy Instagram likes</a></Link> you can make a significant
+								<p>When you <Link href="buy-instagram-followers"><a className="text-blue">buy Instagram
+									followers</a></Link>, <Link href="buy-instagram-views"><a className="text-blue">buy
+										Instagram views</a></Link> or, <Link href="buy-instagram-likes"><a className="text-blue">buy Instagram likes</a></Link> you can make a significant
 									amount of money off the Instagram account – especially from ads. Digital marketers
 									always look for new ways to reach their target audience. When you have – let’s say a
 									million followers – advertisers will reach out to you and ask you to promote their

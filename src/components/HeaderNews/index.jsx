@@ -16,7 +16,7 @@ const HeaderNews = () => {
 								<div className="right-button">
 									<Link href="#">
 										<a className="btn-read-more">
-											<span style={{ color: "#F54E5D" }}>Allow</span>
+											<span className="text-pink">Allow</span>
 										</a>
 									</Link>
 								</div>
